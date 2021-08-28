@@ -1,6 +1,9 @@
 const express = require('express')
-const PORT = process.env.PORT || 5000
+const PORT = 80
 const app = express()
+
+//* Middelware
+app.use(express.static('public'))
 
 //* importing routing files
 const WheatherRoute = require('./Routes/wheather.js')
@@ -9,7 +12,7 @@ const WheatherRoute = require('./Routes/wheather.js')
 app.set('view engine', 'ejs')
 
 //* middlware router
-app.use('/', Wheather)
+app.use('/', WheatherRoute)
 
 app.listen(PORT, () => {
     console.log(`ThunderBolt's server is running on https://localhost:${PORT}`)
