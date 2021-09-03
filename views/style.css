@@ -37,8 +37,6 @@ input{
 }
 .toggle{
     pointer-events: none;
-    border-radius: 50%;
-    /* background: #fff; */
     text-align: center;
     background-color: #c5f3ff ;
     font-size: 21.6px;
@@ -66,7 +64,7 @@ input:checked ~ .toggle{
     pointer-events: none;
     opacity: 0;    
     margin-top: 20px;
-    transition: 0.2s;
+    transition: 0.9s;
     
 }
 input:checked ~ .details{
@@ -76,4 +74,29 @@ input:checked ~ .details{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.mb-3, .mb-4, .mb-5, .mb-6{
+    max-width: 7.3rem; 
+    max-height: 8.5rem;   
+    overflow: hidden; 
+    border-radius: 8.4px;
+    border-color: rgb(75, 255, 231);
+}
+.mb-3{
+    margin-left: 1.4rem ;
+    margin-top: 2.3rem;
+}
+.mb-3 .card-title i{
+    color: rebeccapurple;
+}
+.mb-4{
+    margin: -8.5rem 10.2rem;
+    
+}
+.mb-5{
+    margin: 10.2rem 1.4rem;
+}
+.mb-6{
+    margin: -18.7rem 10.2rem;
+    
 }
