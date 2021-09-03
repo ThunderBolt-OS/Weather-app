@@ -2,7 +2,7 @@
   "name": "wheather-app",
   "version": "1.0.0",
   "description": "this is my first api app",
-  "repository": "https://github.com/ThunderBolt-OS/Wheather-web-first-api-project-.git",
+  "repository": "https://github.com/ThunderBolt-OS/Wheather-app.git",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
