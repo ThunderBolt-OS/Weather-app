@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@300&display=swap');
+
 *{
     
     margin: 0;
@@ -75,28 +77,67 @@ input:checked ~ .details{
     align-items: center;
     text-align: center;
 }
+.card-title{
+    margin-top: 2%;
+}
 .mb-3, .mb-4, .mb-5, .mb-6{
     max-width: 7.3rem; 
     max-height: 8.5rem;   
     overflow: hidden; 
     border-radius: 8.4px;
     border-color: rgb(75, 255, 231);
+    justify-content: center;
+    /* margin-top: 3%; */
 }
 .mb-3{
     margin-left: 1.4rem ;
     margin-top: 2.3rem;
+    margin-top: 13%;
+}
+.fa-thermometer-half{
+    margin-top: 23%;
+
 }
 .mb-3 .card-title i{
     color: rebeccapurple;
+}
+.fa-thermometer-half, .fa-wind, .fa-raindrops, .fa-gauge, .speedometer{
+    font-size: 391.6%;  
+    /* margin-top: 2%; */
+    
 }
 .mb-4{
     margin: -8.5rem 10.2rem;
     
 }
+.fa-wind{
+    margin-top: 22.3%;
+}
 .mb-5{
     margin: 10.2rem 1.4rem;
+}
+.fa-raindrops{
+    margin-top: 29%;
 }
 .mb-6{
     margin: -18.7rem 10.2rem;
     
+}
+.speedometer{
+    margin-top: -3.1%;
+}
+.card-toggle-text, .card-value{
+    font-family: 'Glory', sans-serif;
+    display: flex;
+    justify-content: center;
+    
+}
+.card-toggle-text{
+    margin-top: 8px;
+    font-size: medium;
+}
+.card-value{
+    margin-top: 4px;
+    font-size: large;
+    font-weight:bolder
 }
