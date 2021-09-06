@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;    
     box-sizing: border-box;
+    
 }
 
 
@@ -15,7 +16,7 @@
     position: relative;
     width: 300px;
     height: 400px;
-    background-color: #c5f3ff;
+    /* background-color: #c5f3ff; */
     overflow: hidden;
 }
 .bars-box, .toggle{
@@ -34,7 +35,7 @@
 .toggle{
     pointer-events: none;
     text-align: center;
-    background-color: #c5f3ff ;
+    /* background-color: #c5f3ff ; */
     font-size: 22.6px;
     transition: 0.5s;
     box-shadow: 0 0 0 0 rgb(223, 8, 162);
@@ -76,7 +77,7 @@
     max-height: 8.5rem;   
     overflow: hidden; 
     border-radius: 8.4px;
-    border-color: rgb(75, 255, 231);
+    /* border-color: rgb(75, 255, 231); */
     justify-content: center;    
 }
 .mb-3{
@@ -136,7 +137,7 @@
     top: 2%;
     z-index: 10;
 }
-.inputtext{
+.ghost-input{
     padding: 10px;
     width: 42px;
     height: 42px;
@@ -150,7 +151,7 @@
     transition: .5s;
 
 }
-.search:hover .inputtext{
+.search:hover .ghost-input{
     border-radius: 10px;
     width: 200px;
     /* background: #ffd52d; */
@@ -168,3 +169,25 @@
     opacity: 0;
     z-index: -1;
 }
+html{
+    background:linear-gradient(135deg, #f2d50f 0%,#da0641 100%);
+    /* background-size: ; */
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    /* position: relative; */
+   
+}
+.card{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+.svg-img{
+    
+}
+   

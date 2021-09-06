@@ -20,20 +20,42 @@
     <div class="card">
 
       <div class="search">
-        <form action="" name="text">
-          <input type="text" name="text" class="inputtext"  id="" onmouseout="document.search.text.value = ''">        
+        <form action="/" method="POST" name="text">
+          <input type="text" name="city" class="ghost-input"  id="" onmouseout="document.search.text.value = ''">        
         </form>
         <i class="fas fa-search"></i>
       </div>
-      <i class="fal fa-cloud-sun"></i>
+      <!-- <i class="fal fa-cloud-sun"></i> -->
 
       <input class="bars-box" type="checkbox" />
       <div class="toggle"><i class="fas fa-bars"></i></div>
 
 
 
-      <div class="imgBx">
+      <div class="main">
         <!-- todo all the content of card --> 
+
+        <div class="svg-img">        
+
+          <img src="svg/hot sun.svg" alt=""> 
+          
+        </div>
+
+        <div class="svg-dep">          
+          <!-- <p class="img-des">hot sun</p> -->
+        </div>
+
+        <div class="tem-value">
+          <!-- <h1 class="temp">37 F</h1> -->
+        </div>   
+
+
+
+
+
+
+
+
       </div>
       <div class="details">
         <!-- ?all the 4 card in here -->
@@ -60,7 +82,7 @@
         </div>
         <div class="card text-white bg-primary mb-6">
           <div class="card-body">
-            <h5 class="card-title"><img class="speedometer" src="speedometer.svg" alt=""></h5>
+            <h5 class="card-title"><img class="speedometer" src="svg/speedometer.svg" alt=""></h5>
             <h6 class="card-toggle-text">Pressure</h6>
             <p class="card-value">24.25 in</p>
           </div>
