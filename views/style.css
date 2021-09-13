@@ -185,9 +185,34 @@ html{
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-
-
-.svg-img{
+.svgimg img{
+    margin-top: 134px;
+    margin-left: -52px;
+    z-index: 21;
     
 }
-   
+.img-des{
+    font-family: 'Glory', sans-serif;
+    /* margin-top: -40px;
+    margin-left: -34px; */
+    transform: translate(8%, -137%);
+    font-size: 162.5%;
+    font-weight: 600;
+    z-index: 21;
+}
+.temp{
+    font-family: 'Glory', sans-serif;
+    z-index: 21;
+    transform: translate(-36%, 3%);   
+}
+.whether_app{
+    transform: translate(58.3%, 12%);
+    font-family: 'Glory', sans-serif;
+    z-index: 10;
+}
+
+.city{
+    font-family: 'Glory', sans-serif;
+    font-size: 219%;
+    transform: translate(-24%, 81%);
+}

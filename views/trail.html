@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  
   <script src="https://kit.fontawesome.com/c30dffc46d.js" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/afd6aa68df.js" crossorigin="anonymous"></script>
   
@@ -16,8 +15,16 @@
 
 <body>
   <div class="container">
+
+
     
     <div class="card">
+
+      
+      <h2 class="whether_app">Wheather App</h2>
+      
+      
+      
 
       <div class="search">
         <form action="/" method="POST" name="text">
@@ -25,45 +32,46 @@
         </form>
         <i class="fas fa-search"></i>
       </div>
-      <!-- <i class="fal fa-cloud-sun"></i> -->
+
+      <main class="main">
+        <!-- todo all the content of card --> 
+
+        <div class="svgimg">
+          <img src="https://openweathermap.org/img/w/04n.png" alt="">
+        </div>
+  
+       
+        <div class="svg-dep">          
+          <h2 class="img-des">hot sun</h2>
+        </div>
+  
+        <div class="tem-value">
+          <h1 class="temp">37.067 <span class="temp">&#8457;</span></h1>
+        </div>   
+
+
+        <div class="city_whether">
+          <h1 class="city">Kalyan</h1>
+        </div>  
+  
+  
+      </main>
+      
 
       <input class="bars-box" type="checkbox" />
       <div class="toggle"><i class="fas fa-bars"></i></div>
 
 
-
-      <div class="main">
-        <!-- todo all the content of card --> 
-
-        <div class="svg-img">        
-
-          <img src="svg/hot sun.svg" alt=""> 
-          
-        </div>
-
-        <div class="svg-dep">          
-          <!-- <p class="img-des">hot sun</p> -->
-        </div>
-
-        <div class="tem-value">
-          <!-- <h1 class="temp">37 F</h1> -->
-        </div>   
+      
 
 
-
-
-
-
-
-
-      </div>
       <div class="details">
         <!-- ?all the 4 card in here -->
         <div class="card text-white bg-primary mb-3">
           <div class="card-body">
             <h5 class="card-title"><i class="fas fa-thermometer-half" ></i></h5>
             <h6 class="card-toggle-text">Feels Like</h6>
-            <p class="card-value">25 Deg</p>
+            <p class="card-value">25 <span>&#8457;</span></p>
           </div>
         </div>
         <div class="card text-white bg-primary mb-4">

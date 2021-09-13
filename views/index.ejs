@@ -1,49 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <script src="https://kit.fontawesome.com/c30dffc46d.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/afd6aa68df.js" crossorigin="anonymous"></script>
+  
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <div class="container">
-        <header>
+  <div class="container">
 
-            <!-- !<div>
-            !to add additional features drop side
-        !</div>  -->
 
-        <div class="city-name">
-            <h3>Mumbai</h3><h3>,In</h3>
+    
+    <div class="card">
+
+      
+      <h2 class="whether_app">Wheather App</h2>
+      
+      
+      
+
+      <div class="search">
+        <form action="/" method="POST" name="text">
+          <input type="text" name="city" class="ghost-input"  id="" onmouseout="document.search.text.value = ''">        
+        </form>
+        <i class="fas fa-search"></i>
+      </div>
+
+      <main class="main">
+        <!-- todo all the content of card --> 
+
+        <div class="svgimg">
+          <img src="https://openweathermap.org/img/w/04n.png" alt="">
         </div>
-
-        <div class="day-time">
-            <h5>Mon, 2.30pm</h5>
+  
+       
+        <div class="svg-dep">          
+          <h2 class="img-des">hot sun</h2>
         </div>
+  
+        <div class="tem-value">
+          <h1 class="temp">37.067 <span class="temp">&#8457;</span></h1>
+        </div>   
 
+
+        <div class="city_whether">
+          <h1 class="city">Kalyan</h1>
+        </div>  
+  
+  
+      </main>
+      
+
+      <input class="bars-box" type="checkbox" />
+      <div class="toggle"><i class="fas fa-bars"></i></div>
+
+
+      
+
+
+      <div class="details">
+        <!-- ?all the 4 card in here -->
+        <div class="card text-white bg-primary mb-3">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fas fa-thermometer-half" ></i></h5>
+            <h6 class="card-toggle-text">Feels Like</h6>
+            <p class="card-value">25 <span>&#8457;</span></p>
+          </div>
+        </div>
+        <div class="card text-white bg-primary mb-4">
+          <div class="card-body">
+            <h5 class="card-title"><i class=" fas fa-solid fa-wind" ></i></h5>
+            <h6 class="card-toggle-text">Wind</h6>
+            <p class="card-value">10 km/h</p>
+          </div>
+        </div>
+        <div class="card text-white bg-primary mb-5">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fal fa-raindrops"></i></i></h5>
+            <h6 class="card-toggle-text">Humidity</i></h6>
+            <p class="card-value">50%</p>
+          </div>
+        </div>
+        <div class="card text-white bg-primary mb-6">
+          <div class="card-body">
+            <h5 class="card-title"><img class="speedometer" src="svg/speedometer.svg" alt=""></h5>
+            <h6 class="card-toggle-text">Pressure</h6>
+            <p class="card-value">24.25 in</p>
+          </div>
+        </div>
+        
         
 
-        </header>  
-
-        <main>
-            <div>
-                <!-- ? SVG $ wheather -->
-                <img src="" alt=""><p>Stormy</p>
-            </div>
-
-            <div class="value">
-                <h2>22 F</h2>
-            </div>
-
-            <div>
-                <!-- ? min max temp -->
-            </div>
-        </main>
-        
-
+      </div>
     </div>
+  </div>
 </body>
+
+
 </html>
