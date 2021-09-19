@@ -30,22 +30,22 @@
         <div>          
                    
           <div class="svgimg">
-            <% if(icon !== null) { %>
+            <!-- <% if(icon !== null) { %> -->
               <img class="svgimg" src="https://openweathermap.org/img/w/<%= icon %>.png" alt="">
-            <% } %> 
+            <!-- <% } %>  -->
           </div>
 
-          <% if(des !== null) { %>
+          <!-- <% if(des !== null) { %> -->
             <h2 class="img-des"><%= des%></h2>     
-          <% } %>       
+          <!-- <% } %>        -->
                     
-          <% if(temp !== null) { %>
+          <!-- <% if(temp !== null) { %> -->
             <h1 class="temp"><%= temp%> <span class="temp">&#8457;</span></h1>     
-          <% } %>
+          <!-- <% } %> -->
 
-          <% if(city !== null){ %>
+          <!-- <% if(city !== null){ %> -->
             <h1 class="city"><%= city%></h1>
-          <% } %>
+          <!-- <% } %> -->
           
         </div>  
       </main>
@@ -58,36 +58,36 @@
           <div class="card-body">
             <h5 class="card-title"><i class="fas fa-thermometer-half" ></i></h5>
             <h6 class="card-toggle-text">Feels Like</h6>
-            <% if(feels_like !== null) { %>
+            <!-- <% if(feels_like !== null) { %> -->
               <p class="card-value"><%= feels_like%><span>&#8457;</span></p>              
-            <% } %>
+            <!-- <% } %> -->
           </div>
         </div>
         <div class="card text-white bg-primary mb-4">
           <div class="card-body">
             <h5 class="card-title"><i class=" fas fa-solid fa-wind" ></i></h5>
             <h6 class="card-toggle-text">Wind</h6>
-            <% if(wind_speed !== null) { %>
+            <!-- <% if(wind_speed !== null) { %> -->
               <p class="card-value"><%= wind_speed%> km/h</p>              
-            <% } %>            
+            <!-- <% } %>             -->
           </div>
         </div>
         <div class="card text-white bg-primary mb-5">
           <div class="card-body">
             <h5 class="card-title"><i class="fal fa-raindrops"></i></i></h5>
             <h6 class="card-toggle-text">Humidity</i></h6>
-            <% if(humidity !== null) { %>
+            <!-- <% if(humidity !== null) { %> -->
               <p class="card-value"><%= humidity%></p>                         
-            <% } %>
+            <!-- <% } %> -->
           </div>
         </div>
         <div class="card text-white bg-primary mb-6">
           <div class="card-body">
             <h5 class="card-title"><img class="speedometer" src="svg/speedometer.svg" alt=""></h5>
             <h6 class="card-toggle-text">Pressure</h6>
-            <% if(pressure !== null) { %>
+            <!-- <% if(pressure !== null) { %> -->
               <p class="card-value"><%= pressure%> in</p>                         
-            <% } %>            
+            <!-- <% } %>             -->
           </div>
         </div>
       </div>
