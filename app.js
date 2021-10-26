@@ -26,3 +26,4 @@ console.log("hello world middle router")
 app.listen(PORT, () => {
     console.log(`ThunderBolt's server is running on http://localhost:${PORT}`)
 });
+console.log("hello the server is running")
